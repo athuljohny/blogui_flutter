@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: BlogHomeOnePage(),
+    home: BlogHome(),
   ));
 }
 
@@ -50,7 +50,7 @@ final List<Map> articles = [
   },
 ];
 
-class BlogHomeOnePage extends StatelessWidget {
+class BlogHome extends StatelessWidget {
   final Color primaryColor = const Color(0xfED22192);
   final Color bgColor = const Color(0xffa9E0E3);
   final Color secondaryColor = const Color(0xff324558);
